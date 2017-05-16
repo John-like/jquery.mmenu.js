@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+		<meta name="author" content="www.frebsite.nl" />
+		<meta name="apple-mobile-web-app-title" content="城市地产">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maxinum-scale=1" />
+		<title>城市地产</title>
+
+		<link type="text/css" rel="stylesheet" href="css/demo.css" />
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.css" />
+
+		<script src="http://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mmenu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('nav#menu').mmenu({
+					slidingSubmenus: false
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<nav id="menu">
+			<ul>
+
+				<li>
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					<a href="about1.html">集团概况</a>
+				</li>
+				<li>
+					<a href="about2.html">董事长致辞</a>
+				</li>
+				<li>
+					<a href="about3.html">发展历程</a>
+				</li>
+				<li>
+					<a href="about4.html">企业架构及文化</a>
+				</li>
+				<li>
+					<a href="chanye1.html">产业发展</a>
+					<ul>
+						<li>
+							<a href="chanye1.html">商业地产开发</a>
+						</li>
+						<li>
+							<a href="chanye2.html">商业运营管理</a>
+						</li>
+						<li>
+							<a href="chanye3.html">城市家具</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="news_1.html">新闻资讯</a>
+					<ul>
+						<li>
+							<a href="news_1.html">企业新闻</a>
+						</li>
+						<li>
+							<a href="news_1.html">行业新闻</a>
+						</li>
+						<li>
+							<a href="news_1.html">子公司动态</a>
+						</li>
+						<li>
+							<a href="news_1.html">最新通告</a>
+						</li>
+					</ul>
+				</li>
+				<li class="Selected">
+					<a href="renli1.html">人力资源</a>
+					<ul>
+						<li>
+							<a href="renli1.html">人力资源</a>
+						</li>
+						<li>
+							<a href="renli2.html">员工风采</a>
+						</li>
+						<li>
+							<a href="renli_position.html">职位信息</a>
+						</li>
+						<li>
+							<a href="renli_apply.html">职位申请</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="call_1.html">联系我们</a>
+					<ul>
+						<li>
+							<a href="call_1.html">联系方式</a>
+						</li>
+						<li>
+							<a href="call_2.html">在线留言</a>
+						</li>
+
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<div class="mm-slideout">
+			<div id="page">
+				<div id="header">
+					<a href="#menu" data-href='true'></a>
+					<img src="images/logo.png" />
+				</div>
+				<div id="content">
+					<!--文字部分-->
+					<div class="MainContent">
+						<div class="SubBan">
+
+							<img src="images/201702241437383738.jpg">
+
+							<h3 class="h3">人才理念</h3>
+							<h4 class="h4">Talent concept</h4>
+						</div>
+
+						<section class="contain">
+							<div class="Singlepage">
+								<p> <img src="images/201702231720312031.jpg"  alt=""><span style="font-size:12px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+								<p> <span style="font-size:12px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 城市地产一直在着力建设以“智慧、合作、共赢”为核心价值观的企业文化，并具体化为企业规范和员工职业操守。城市地产人中蕴藏着无穷无尽的力量和智慧，这是企业文化建设的根本之源，是企业持续发展的命脉。</span><br><span style="font-size:12px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 城市地产为员工提供了更大的发展空间，将企业价值观、经营理念潜移默化地传递给员工，将企业价值取向转化为员工的实际行动，使员工更富于创造性地为客户提供优质的增值服务，在追求自身人格的完善和个人价值的同时，实现企业的价值。</span></p>
+
+							</div>
+						</section>
+					</div>
+					<!--文字部分结束-->
+				</div>
+				<!--fontter-->
+				
+				<footer>
+					
+						<div class="NavCopy">
+							<span>©2017&nbsp;&nbsp;上海城市地产控股有限公司 &nbsp;版权所有</span>
+							<a id="footer_icp" target="_blank" href="http://www.miitbeian.gov.cn/">沪ICP备09008897号</a>
+								
+						</div>
+				
+				</footer>
+			</div>
+		</div>
+
+	</body>
+
+	<script type="text/javascript">
+		$(window).scroll(
+			function() {
+				if($(document).scrollTop() > 0) {
+					$('#header').css({
+						'position': 'fixed'
+					})
+					$('.MainContent').css({
+						'padding-top': '40px'
+					})
+				}
+			}
+		)
+		$('#header a').click(function() {
+
+			$('#header').css({
+				'position': 'relative'
+			})
+			$('.MainContent').css({
+				'padding-top': '0px'
+			})
+		})
+	</script>
+
+</html>

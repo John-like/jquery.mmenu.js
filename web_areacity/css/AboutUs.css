@@ -1,0 +1,56 @@
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	background-color: #333;
+	/*text-align: center;*/
+	/*font-size: 18px;*/
+	/*background: #fff;*/
+}
+
+div.MenuRegin{ position: absolute; left: 25px; top: 10px; z-index: 9999; }
+html,body,.mm-page,#PageRegin{position:relative;height: 100%}
+div.FosunMain{  width: auto!important;height: 100%; }
+
+.AboutItem{ position: relative; display: block; height: 100%;background-color:#fff;background-size: cover;background-position: left top;background-repeat: no-repeat}
+.AboutItem h2{ font-size: 52px; line-height: 55px; /*font-weight: normal !important;*/ position: absolute; }
+.AboutItem h2 button{ font-size: 14px; line-height: 20px; background-color: transparent; padding: 2px 10px; cursor: pointer; display: none; }
+.AboutItem ul{ background: #333; opacity: 0.8; padding: 10px 20px; position: absolute; }
+.AboutItem ul li{ color: #fff; font-size: 14px; line-height: 20px; padding:7px 0; }
+.en_US .AboutItem ul li{ line-height: 20px; }
+.AboutItem .Regin{ position:absolute;width: 100%; top:120px; left: 7%;opacity: 0;text-align:justify;text-justify:inter-ideograph;transition: opacity ease 2s 1.5s;  }
+
+.AboutItem .Tit{font-size: 20px; color: #fff; top: 20px; left: 1%; line-height: 34px; opacity: 0;transition: all ease 2s;
+	font-weight: lighter;
+	width: :88;%;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+
+.en_US .AboutItem .Tit{font-family:'DINCond-Light';}
+.en_US .AboutItem .Tit5{width: 700px;}
+.en_US .AboutItem .Regin5{top:215px}
+
+.AboutItem .Tit7,.AboutItem .Tit3{color:#1551AA}
+.AboutItem .Regin4{padding-left: 30px;list-style: disc}
+.en_US .AboutItem .Regin4{list-style: none}
+.AboutItem .Regin7,.AboutItem .Regin5,.AboutItem .Regin4,.AboutItem .Regin2,.AboutItem .Regin3{top:165px;}
+.en_US .AboutItem .Regin3{top: 215px;}
+.AboutItem .Regin.Regin1{width:70%;
+	color: #ffffff;}
+
+.swiper-slide-active .AboutItem .Tit{left:7%;opacity: 1;}
+.swiper-slide-active .AboutItem .Regin{opacity: .9;}
+.swiper-pagination-bullet-active{background-color: #fff}
+
+.Regin p{
+	font-size: 12px;
+}
+
+
+
+
